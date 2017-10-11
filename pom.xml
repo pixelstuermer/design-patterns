@@ -10,4 +10,18 @@
 	<name>design-patterns</name>
 	<description>Sample implementation of design patterns</description>
 
+	<modules>
+		<module>pattern-01-strategy</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-01-strategy</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 </project>
