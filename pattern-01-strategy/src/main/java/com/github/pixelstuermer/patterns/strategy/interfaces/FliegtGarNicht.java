@@ -1,4 +1,4 @@
-package com.github.pixelstuermer.patterns.strategy;
+package com.github.pixelstuermer.patterns.strategy.interfaces;
 
 public class FliegtGarNicht implements FlugVerhalten {
 
