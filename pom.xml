@@ -63,7 +63,7 @@
 									<include>**/*</include>
 								</includes>
 								<excludes>
-									<exclude>*sources*</exclude>
+									<exclude>*.jar</exclude>
 								</excludes>
 							</fileset>
 						</filesets>
