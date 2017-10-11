@@ -15,4 +15,9 @@ public class GummiEnte extends Ente {
       return "Anzeigen: Sieht aus wie eine Gummiente";
    }
 
+   @Override
+   public String schwimmen() {
+      return "Schwimmen: Treibt wie Gummi auf dem Wasser herum ...";
+   }
+
 }

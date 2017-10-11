@@ -1,18 +1,18 @@
 package com.github.pixelstuermer.patterns.strategy.models;
 
-import com.github.pixelstuermer.patterns.strategy.interfaces.FliegtMitFluegeln;
+import com.github.pixelstuermer.patterns.strategy.interfaces.FliegtGarNicht;
 import com.github.pixelstuermer.patterns.strategy.interfaces.StummesQuaken;
 
 public class LockEnte extends Ente {
 
    public LockEnte() {
       this.setQuakVerhalten( new StummesQuaken() );
-      this.setFlugVerhalten( new FliegtMitFluegeln() );
+      this.setFlugVerhalten( new FliegtGarNicht() );
    }
 
    @Override
    public String anzeigen() {
-      return "Anzeigen: Sieht aus wie eine Lockente";
+      return "Anzeigen: Sieht aus wie ein Stueck Holz";
    }
 
    @Override
