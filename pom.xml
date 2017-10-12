@@ -17,6 +17,7 @@
 	<properties>
 		<source.plugin.version>3.0.1</source.plugin.version>
 		<clean.plugin.version>3.0.0</clean.plugin.version>
+		<logback.version>1.2.3</logback.version>
 	</properties>
 
 	<dependencyManagement>
@@ -25,6 +26,11 @@
 				<groupId>${project.groupId}</groupId>
 				<artifactId>pattern-01-strategy</artifactId>
 				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+				<version>${logback.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
