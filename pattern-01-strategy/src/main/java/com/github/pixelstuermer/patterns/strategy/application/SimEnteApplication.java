@@ -13,7 +13,6 @@ import com.github.pixelstuermer.patterns.strategy.models.StockEnte;
 public class SimEnteApplication {
 
    private static Ente ente;
-   private static final String NEWLINE = System.lineSeparator();
    private static final String DASHES = "-----";
 
    private static final Logger LOGGER = LoggerFactory.getLogger( SimEnteApplication.class );
