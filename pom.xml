@@ -17,6 +17,10 @@
 	</modules>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+
 		<source.plugin.version>3.0.1</source.plugin.version>
 		<clean.plugin.version>3.0.0</clean.plugin.version>
 		<logback.version>1.2.3</logback.version>
