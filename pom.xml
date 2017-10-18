@@ -8,10 +8,11 @@
 	<packaging>pom</packaging>
 
 	<name>design-patterns</name>
-	<description>Sample implementation of design patterns</description>
+	<description>Sample Java implementation of design patterns</description>
 
 	<modules>
 		<module>pattern-01-strategy</module>
+		<module>pattern-02-singleton</module>
 	</modules>
 
 	<properties>
@@ -25,6 +26,11 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>pattern-01-strategy</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-02-singleton</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
