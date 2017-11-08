@@ -8,11 +8,11 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>pattern-04-decorator</artifactId>
+	<artifactId>pattern-05-a-simple-factory</artifactId>
 	<packaging>jar</packaging>
 
-	<name>pattern-04-decorator</name>
-	<description>Java decorator pattern example</description>
+	<name>pattern-05-a-simple-factory</name>
+	<description>Java simple factory pattern example</description>
 
 	<dependencies>
 		<dependency>
