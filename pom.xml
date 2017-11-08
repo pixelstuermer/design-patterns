@@ -17,6 +17,7 @@
 		<module>pattern-04-decorator</module>
 		<module>pattern-05-a-simple-factory</module>
 		<module>pattern-05-b-factory-method</module>
+		<module>pattern-05-c-abstract-factory</module>
 	</modules>
 
 	<properties>
