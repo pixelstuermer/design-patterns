@@ -18,6 +18,7 @@
 		<module>pattern-05-a-simple-factory</module>
 		<module>pattern-05-b-factory-method</module>
 		<module>pattern-05-c-abstract-factory</module>
+		<module>pattern-06-command</module>
 	</modules>
 
 	<properties>
@@ -53,6 +54,21 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>pattern-05-a-simple-factory</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-05-b-factory-method</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-05-c-abstract-factory</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-06-command</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
