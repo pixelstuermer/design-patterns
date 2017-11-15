@@ -17,11 +17,11 @@ public class StereoSystem {
    }
 
    public void setVolume() {
-      System.out.println( "Volume of Stereo system " + name + " was set" );
+      System.out.println( "Volume of stereo system " + name + " was set" );
    }
 
    public void setDVD() {
-      System.out.println( "DVD of Stereo system " + name + " was set" );
+      System.out.println( "DVD of stereo system " + name + " was set" );
    }
 
 }
