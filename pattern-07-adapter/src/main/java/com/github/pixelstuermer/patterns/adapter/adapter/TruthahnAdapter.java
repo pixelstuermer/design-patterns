@@ -5,7 +5,7 @@ import com.github.pixelstuermer.patterns.adapter.model.Truthahn;
 
 public class TruthahnAdapter implements Ente {
 
-   Truthahn truthahn;
+   private Truthahn truthahn;
 
    public TruthahnAdapter( Truthahn truthahn ) {
       this.truthahn = truthahn;
