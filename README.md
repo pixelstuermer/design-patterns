@@ -10,3 +10,10 @@ Sample Java implementation of design patterns, following [this](https://www.amaz
 2. Singleton
 3. Observer
 4. Decorator
+5. Factory
+    1. Simple Factory
+    2. Factory Method
+    3. Abstract Factory
+6. Command
+7. Adapter
+8. Fassade

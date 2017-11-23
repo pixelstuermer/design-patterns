@@ -19,6 +19,8 @@
 		<module>pattern-05-b-factory-method</module>
 		<module>pattern-05-c-abstract-factory</module>
 		<module>pattern-06-command</module>
+		<module>pattern-07-adapter</module>
+		<module>pattern-08-fassade</module>
 	</modules>
 
 	<properties>
@@ -69,6 +71,16 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>pattern-06-command</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-07-adapter</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-08-fassade</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
