@@ -1,9 +1,9 @@
 package com.github.pixelstuermer.patterns.adapter.application;
 
-import com.github.pixelstuermer.patterns.adapter.adapters.TruthahnAdapter;
-import com.github.pixelstuermer.patterns.adapter.models.Ente;
-import com.github.pixelstuermer.patterns.adapter.models.StockEnte;
-import com.github.pixelstuermer.patterns.adapter.models.WilderTruthahn;
+import com.github.pixelstuermer.patterns.adapter.adapter.TruthahnAdapter;
+import com.github.pixelstuermer.patterns.adapter.model.Ente;
+import com.github.pixelstuermer.patterns.adapter.model.StockEnte;
+import com.github.pixelstuermer.patterns.adapter.model.WilderTruthahn;
 
 public class AdapterApplication {
 

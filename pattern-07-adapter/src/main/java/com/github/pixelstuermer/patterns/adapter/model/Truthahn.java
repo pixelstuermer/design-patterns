@@ -1,4 +1,4 @@
-package com.github.pixelstuermer.patterns.adapter.models;
+package com.github.pixelstuermer.patterns.adapter.model;
 
 public interface Truthahn {
 

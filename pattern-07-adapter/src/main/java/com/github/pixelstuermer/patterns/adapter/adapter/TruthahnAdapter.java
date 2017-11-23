@@ -1,7 +1,7 @@
-package com.github.pixelstuermer.patterns.adapter.adapters;
+package com.github.pixelstuermer.patterns.adapter.adapter;
 
-import com.github.pixelstuermer.patterns.adapter.models.Ente;
-import com.github.pixelstuermer.patterns.adapter.models.Truthahn;
+import com.github.pixelstuermer.patterns.adapter.model.Ente;
+import com.github.pixelstuermer.patterns.adapter.model.Truthahn;
 
 public class TruthahnAdapter implements Ente {
 
