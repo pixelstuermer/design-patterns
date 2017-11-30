@@ -16,4 +16,6 @@ Sample Java implementation of design patterns, following [this](https://www.amaz
     3. Abstract Factory
 6. Command
 7. Adapter
-8. Fassade
+8. Facade
+9. Iterator
+10. Composite
