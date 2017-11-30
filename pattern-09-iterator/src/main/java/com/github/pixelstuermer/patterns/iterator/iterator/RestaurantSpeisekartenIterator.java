@@ -1,8 +1,10 @@
 package com.github.pixelstuermer.patterns.iterator.iterator;
 
+import java.util.Iterator;
+
 import com.github.pixelstuermer.patterns.iterator.model.Speise;
 
-public class RestaurantSpeisekartenIterator implements Iterator {
+public class RestaurantSpeisekartenIterator implements Iterator<Object> {
 
    private Speise[] speisen;
    private int positionCounter;
