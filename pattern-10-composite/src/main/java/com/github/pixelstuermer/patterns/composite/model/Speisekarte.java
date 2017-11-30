@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import com.github.pixelstuermer.patterns.composite.composite.SpeisekartenComponent;
+import com.github.pixelstuermer.patterns.composite.iterator.KompositumIterator;
 
 public class Speisekarte extends SpeisekartenComponent {
 
@@ -18,11 +19,6 @@ public class Speisekarte extends SpeisekartenComponent {
    @Override
    public void add( SpeisekartenComponent speisekartenComponent ) {
       this.speisekartenComponent.add( speisekartenComponent );
-   }
-
-   @Override
-   public void remove( SpeisekartenComponent speisekartenComponent ) {
-      this.speisekartenComponent.remove( speisekartenComponent );
    }
 
    @Override
@@ -41,6 +37,11 @@ public class Speisekarte extends SpeisekartenComponent {
       while ( iterator.hasNext() ) {
          ((SpeisekartenComponent) iterator.next()).ausgeben();
       }
+   }
+
+   @Override
+   public Iterator<?> createIterator() {
+      return new KompositumIterator( speisekartenComponent.iterator() );
    }
 
 }

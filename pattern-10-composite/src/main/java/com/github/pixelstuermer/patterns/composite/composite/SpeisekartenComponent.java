@@ -1,14 +1,12 @@
 package com.github.pixelstuermer.patterns.composite.composite;
 
+import java.util.Iterator;
+
 public abstract class SpeisekartenComponent {
 
    // Komposita methods
 
    public void add( SpeisekartenComponent speisekartenComponent ) {
-      throw new UnsupportedOperationException();
-   }
-
-   public void remove( SpeisekartenComponent speisekartenComponent ) {
       throw new UnsupportedOperationException();
    }
 
@@ -31,5 +29,7 @@ public abstract class SpeisekartenComponent {
    public void ausgeben() {
       throw new UnsupportedOperationException();
    }
+
+   public abstract Iterator<?> createIterator();
 
 }

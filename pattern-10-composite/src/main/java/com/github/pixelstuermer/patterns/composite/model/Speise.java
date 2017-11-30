@@ -1,6 +1,9 @@
 package com.github.pixelstuermer.patterns.composite.model;
 
+import java.util.Iterator;
+
 import com.github.pixelstuermer.patterns.composite.composite.SpeisekartenComponent;
+import com.github.pixelstuermer.patterns.composite.iterator.NullIterator;
 
 public class Speise extends SpeisekartenComponent {
 
@@ -31,13 +34,13 @@ public class Speise extends SpeisekartenComponent {
    }
 
    @Override
-   public String toString() {
-      return "Name: " + name + " / Preis: " + price;
+   public void ausgeben() {
+      System.out.println( "Name: " + name + " / Preis: " + price );
    }
 
    @Override
-   public void ausgeben() {
-      System.out.println( "Name: " + name + " / Preis: " + price );
+   public Iterator<?> createIterator() {
+      return new NullIterator();
    }
 
 }
