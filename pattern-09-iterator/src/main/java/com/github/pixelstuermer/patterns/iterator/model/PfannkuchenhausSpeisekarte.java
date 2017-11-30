@@ -2,6 +2,9 @@ package com.github.pixelstuermer.patterns.iterator.model;
 
 import java.util.ArrayList;
 
+import com.github.pixelstuermer.patterns.iterator.iterator.Iterator;
+import com.github.pixelstuermer.patterns.iterator.iterator.PfannkuchenhausSpeisekartenIterator;
+
 public class PfannkuchenhausSpeisekarte {
 
    private ArrayList<Speise> speisen;
@@ -16,8 +19,8 @@ public class PfannkuchenhausSpeisekarte {
       speisen.add( new Speise( name, preis ) );
    }
 
-   public ArrayList<Speise> getSpeisen() {
-      return speisen;
+   public Iterator createIterator() {
+      return new PfannkuchenhausSpeisekartenIterator( speisen );
    }
 
 }

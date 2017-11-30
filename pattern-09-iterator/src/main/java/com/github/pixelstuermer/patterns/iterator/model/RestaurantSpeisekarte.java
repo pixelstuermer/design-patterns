@@ -1,5 +1,8 @@
 package com.github.pixelstuermer.patterns.iterator.model;
 
+import com.github.pixelstuermer.patterns.iterator.iterator.Iterator;
+import com.github.pixelstuermer.patterns.iterator.iterator.RestaurantSpeisekartenIterator;
+
 public class RestaurantSpeisekarte {
 
    private static final int MAX_SPEISEN = 6;
@@ -24,8 +27,8 @@ public class RestaurantSpeisekarte {
       }
    }
 
-   public Speise[] getSpeisen() {
-      return speisen;
+   public Iterator createIterator() {
+      return new RestaurantSpeisekartenIterator( speisen );
    }
 
 }

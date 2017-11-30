@@ -1,6 +1,6 @@
 package com.github.pixelstuermer.patterns.iterator.model;
 
-import java.util.ArrayList;
+import com.github.pixelstuermer.patterns.iterator.iterator.Iterator;
 
 public class Kellnerin {
 
@@ -14,17 +14,16 @@ public class Kellnerin {
    }
 
    public void speisekarteAusgeben() {
-      ArrayList<Speise> pfannkuchenSpeisen = pfannkuchenhausSpeisekarte.getSpeisen();
-      Speise[] speisen = restaurantSpeisekarte.getSpeisen();
-
       System.out.println( "--- PRANNKUCHEN ---" );
-      for ( int i = 0; i <= pfannkuchenSpeisen.size(); i++ ) {
-         System.out.println( pfannkuchenSpeisen.get( i ).toString() );
-      }
+      speisekarteAusgeben( pfannkuchenhausSpeisekarte.createIterator() );
 
-      System.out.println( "--- RESTAURANT ---" );
-      for ( int i = 0; i <= speisen.length; i++ ) {
-         System.out.println( speisen[i].toString() );
+      System.out.println( "\n--- RESTAURANT ---" );
+      speisekarteAusgeben( restaurantSpeisekarte.createIterator() );
+   }
+
+   private void speisekarteAusgeben( Iterator iterator ) {
+      while ( iterator.hasNext() ) {
+         System.out.println( ((Speise) iterator.next()).toString() );
       }
    }
 
