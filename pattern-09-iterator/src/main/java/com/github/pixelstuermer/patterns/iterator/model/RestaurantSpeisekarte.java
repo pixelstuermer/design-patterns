@@ -20,7 +20,7 @@ public class RestaurantSpeisekarte {
       }
       else {
          speisen[counterSpeisen] = new Speise( name, preis );
-         counterSpeisen += 1;
+         counterSpeisen++;
       }
    }
 
