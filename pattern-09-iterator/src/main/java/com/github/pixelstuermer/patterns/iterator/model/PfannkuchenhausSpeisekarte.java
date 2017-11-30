@@ -1,4 +1,4 @@
-package com.github.pixelstuermer.patterns.fassade.model;
+package com.github.pixelstuermer.patterns.iterator.model;
 
 import java.util.ArrayList;
 
