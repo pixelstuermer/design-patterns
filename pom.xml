@@ -23,6 +23,7 @@
 		<module>pattern-08-fassade</module>
 		<module>pattern-09-iterator</module>
 		<module>pattern-10-composite</module>
+		<module>pattern-11-state</module>
 	</modules>
 
 	<properties>
@@ -93,6 +94,11 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>pattern-10-composite</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-11-state</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
