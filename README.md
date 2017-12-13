@@ -19,3 +19,4 @@ Sample Java implementation of design patterns, following [this](https://www.amaz
 8. Facade
 9. Iterator
 10. Composite
+11. State
