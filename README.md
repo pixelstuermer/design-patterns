@@ -20,3 +20,7 @@ Sample Java implementation of design patterns, following [this](https://www.amaz
 9. Iterator
 10. Composite
 11. State
+12. Proxy
+    1. Remote Proxy
+    2. Virtual Proxy
+    3. Protection Proxy
