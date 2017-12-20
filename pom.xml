@@ -24,6 +24,9 @@
 		<module>pattern-09-iterator</module>
 		<module>pattern-10-composite</module>
 		<module>pattern-11-state</module>
+		<module>pattern-12-a-remote-proxy</module>
+		<module>pattern-12-b-virtual-proxy</module>
+		<module>pattern-12-c-protection-proxy</module>
 	</modules>
 
 	<properties>
@@ -99,6 +102,21 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>pattern-11-state</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-12-a-remote-proxy</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-12-b-virtual-proxy</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>pattern-12-c-protection-proxy</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
