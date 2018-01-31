@@ -6,7 +6,7 @@ public class SingletonFour {
    public String text;
    public boolean hidden;
 
-   private static SingletonFour singletonFour = new SingletonFour();
+   private static SingletonFour singletonFour;
 
    private SingletonFour() {
       number = 0;
@@ -15,6 +15,13 @@ public class SingletonFour {
    }
 
    public static SingletonFour getInstance() {
+      if ( singletonFour == null ) {
+         synchronized ( SingletonFour.class ) {
+            if ( singletonFour == null ) {
+               singletonFour = new SingletonFour();
+            }
+         }
+      }
       return singletonFour;
    }
 
